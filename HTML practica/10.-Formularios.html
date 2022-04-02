@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+
+    <form >
+        <label for="nombre">Nombre:</label>
+        <input type="text" 
+                value=""  
+                placeholder="Escribe aqui"
+                name="nombre"
+                id="nombre"
+                maxlength="15"
+                minlength="5"
+                required> <br> <br>
+        <label for="email">Email</label>
+        <input type="email" name="email"id="email"required>
+        <br> <br>
+        <label for="password">Password</label>
+        <input type="password" name="password"id="password"maxlength="15"
+                    minlength="5"required>
+        <br> <br>
+
+        <input type="button" value="Pulsar">
+        <button>Pulsame</button> <br>
+
+        <label for="condiciones">acepta las condiciones</label>
+        <input type="checkbox" name="condiciones"id="condiciones"required><br>
+
+        <input type="color"><br>
+        <input type="date"><br>
+        <input type="file"><br>
+        <input type="hidden"><br>
+        <input type="month"><br>
+        <label for= "Estado"> Estado:</label>
+        <input type="radio" name="casado"value="casado"required>Casado
+        <input type="radio" name="soltero"value="soltero"required>soltero
+        
+        <br><br>
+
+        <label for="peces">Peces:</label>
+        <select name="peces"id="peces">
+
+        <optgroup label="Mar Caribe">Selecciona una opcion</option>
+            <option value="tiburones">Tiburones</option>
+            <option value="ballena">Ballena</option>
+            <option value="tortugas">Tortugas</option>
+            <option value="pulpos">Pulpos</option>
+            <option value="pulpo">Pulpo</option>
+        </optgroup>
+        <optgroup label="Mar muerto">Selecciona una opcion</option>
+            <option value="tiburones">Caimanes</option>
+            <option value="ballena">Zoopilotes</option>
+            <option value="tortugas">Anguilas</option>
+            <option value="pulpos">Serpientes</option>
+            <option value="pulpo">Garrotes</option>
+        </optgroup>
+        </select>
+    <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
